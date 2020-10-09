@@ -5,3 +5,8 @@ ex: Ana Maria de Souza
 primeiro: Ana
 último: Souza
 """
+
+nome = str(input('Informe o seu nome completo: ')).strip()
+lista = nome.split()
+print('Seu primeiro nome é {}.'.format(lista[0]))
+print('Seu último nome é {}.'.format(nome[len(nome)-1]))
