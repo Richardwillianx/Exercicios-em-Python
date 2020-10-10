@@ -11,4 +11,4 @@ if salario <= 1.250:
     novo = salario + (salario * 15/100)
 else:
     novo = salario + (salario * 10/100)
-print('Quem recebia R${:.2f} comecará recever R${:.2f}'.format(salario, novo))
+print('Quem recebia R${:.2f} comecará receber R${:.2f}'.format(salario, novo))
