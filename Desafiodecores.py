@@ -14,4 +14,3 @@ cores = {'limpa': '\033[m',
 #print('Olá! muito prazer em lhe conhecer, {}{}{}!'.format('\033[4;34m', nome, '\033[m'))
 
 print('Olá! muito prazer em lhe conhecer, {}{}{}!'.format(cores['pretoebranco'], nome, cores['limpa']))
-
