@@ -49,3 +49,4 @@ elif pc == 2: #Computador jogou TESOURA
         print('COMPUTADOR VENCEU')
     if jogador == 2:
         print('EMPATE')
+
