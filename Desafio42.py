@@ -7,7 +7,7 @@ Refaça o DESAFIO 35 dos triângulos, acrescentando o recurso de mostrar que tip
 """
 
 ps = float(input('Informe o primeiro segmento: '))
-ss = float(input('Informe o segundo segmento: '))
+ss = float(input('Informe o segundo segmento:  '))
 ts = float(input('Informe o terceiro segmento: '))
 
 if ts < ss + ts and ss < ps + ss and ts < ps + ss:

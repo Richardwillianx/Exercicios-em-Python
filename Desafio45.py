@@ -35,7 +35,7 @@ if pc == 0: #Computador jogou PEDRA
 
 elif pc == 1: #Computador jogou PAPEL
     if jogador == 0:
-        print('COMPUTADOR VENCEU')
+        print('COMPUTADOR VENCEU ')
     if jogador == 1:
         print('EMPATE')
     if jogador == 2:

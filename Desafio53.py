@@ -7,7 +7,7 @@ ex palíndromo: Apos a Sopa.
             O Lobo ama o Bolo.
             (Frases que são a mesma coisa de trás para frente)
 """
-frase = str(input('Digite uma frase ')).strip().upper()
+frase = str(input('Digite uma frase: ')).strip().upper()
 palavras = frase.split()
 junto = ''.join(palavras)
 inverso = junto[::-1]

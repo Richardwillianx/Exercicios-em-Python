@@ -8,4 +8,4 @@ for c in range(1, 501, 2):
         cont += 1
         soma += c
 
-print(f'A soma de todos os {cont} valores solicitados é {soma}.')
+print(f'A soma de todos os {cont} valores solicitados é {soma}. ')

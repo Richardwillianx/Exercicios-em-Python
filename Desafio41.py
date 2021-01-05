@@ -9,7 +9,7 @@ A Confederação Nacional de Natação precisa de um programa que leia o ano de 
 """
 from datetime import date
 atual = date.today().year
-nascimento = int(input('Informe o ano de nascimento: '))
+nascimento = int(input('Informe o ano de nascimento:  '))
 print()
 idade = atual - nascimento
 print('O atleta tem {} anos.'.format(idade))

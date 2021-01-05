@@ -4,3 +4,30 @@ A) quantas pessoas tem mais de 18 anos.
 B) quantos homens foram cadastrados.
 C) quantas mulheres tem menos de 20 anos.
 """
+tot18 = totH = totM20 = 0
+
+print('\033[31mCADASTRO DE PESSOAS\033[m')
+
+while True:
+    idade = int(input('Idade: '))
+
+    sexo = ' '
+    while sexo not in 'MF':
+        sexo = str(input('Sexo:[M/F] ')).strip().upper()[0]
+    if idade >= 18:
+        tot18 += 1
+    if sexo == 'M':
+            totH += 1
+    if sexo == 'F' and idade <= 20:
+            totM20 += 1
+
+    resp = ' '
+    while resp not in 'SN':
+        resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
+    if resp == 'N':
+        break
+print('=*'*30)
+print(f'Total de pessoas com mais de 18 anos: \033[34m{tot18}\033[m')
+print(f'Total de homens cadastrados: \033[35m{totH}\033[m')
+print(f'Total de mulheres com menos de 20 anos:\033[37m {totM20}\033[m')
+print('=*'*30)

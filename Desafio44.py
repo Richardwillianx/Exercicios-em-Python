@@ -17,7 +17,7 @@ print('''FORMAS DE PAGAMENTO
 [3] 2x no cartão
 [4] 3x ou mais no cartão''')
 print()
-opção = int(input('Qual é a forma de pagamento? '))
+opção = int(input('Qual é a forma de pagamento?  '))
 if opção == 1:
     total = compras - (compras * 10 / 100)
 

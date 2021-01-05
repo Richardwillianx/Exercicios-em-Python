@@ -9,7 +9,7 @@ Desenvolva uma lógica que leia o pessoa e a altura de uma pessoa, calcule seu I
 """
 
 peso = float(input('Informe o seu peso: (KG)'))
-altura = float(input('Informe a sua altura: (m)'))
+altura = float(input('Informe a sua altura:  (m)'))
 imc = peso / (altura ** 2)
 print('O seu IMC é de {:.1f}'.format(imc))
 
